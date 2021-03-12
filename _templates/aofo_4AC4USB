@@ -14,6 +14,15 @@ In some cases Relay5 (USB) ON/OFF is inverted. You can use this configuration:
 template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,33,0,0],"FLAG":0,"BASE":18}'
 
 
+AOFO-C730: (new hardware released)
+1   2   3   4   5   
+*U  R1  R2  R3  R4     
+
+*U - switch enable/disable USB outputs
+
+template: '{"NAME":"AOFO4AC4USB-EU","GPIO":[0,320,0,32,228,227,0,0,225,224,226,0,0,0],"FLAG":0,"BASE":18}'
+
+
 
 
 
